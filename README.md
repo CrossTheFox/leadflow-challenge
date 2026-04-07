@@ -55,9 +55,12 @@ LeadFlow es una solución de grado profesional diseñada para centralizar contac
 6. **Llenar base de datos (Seeders):**
    ```bash
    python manage.py seed_initial
-   python manage.py seed_webhooks
    ```
 7. Correr servidor: `python manage.py runserver`
+8. Ejecutar el seeder de webhooks:
+    ```bash
+    python manage.py seed_webhooks
+    ```
 
 
 ### Frontend (Next.js)
