@@ -41,6 +41,7 @@ LeadFlow es una solución de grado profesional diseñada para centralizar contac
 * **Dashboard Orientado a Resultados:** Las métricas fueron diseñadas para identificar cuellos de botella (distribución por estado) y monitorear la salud del sistema (tasa de éxito de webhooks) y la productividad del equipo en tiempo real.
 * **Filtros de Gestión Avanzada:** La vista de Leads incluye filtrado multivariable (Estado y Responsable), sentando las bases técnicas para una futura arquitectura multi-inquilino (Multi-tenant) con permisos restringidos por usuario.
 * **Arquitectura Extensible:** El sistema fue concebido bajo el principio de responsabilidad única, facilitando la adición de nuevas métricas, vistas o integraciones de terceros con un impacto mínimo en el núcleo del sistema.
+* **Cultura de QA y Datos:** Se implementó una suite de pruebas automatizadas enfocada en la robustez de los Webhooks. Además, para facilitar la evaluación técnica, se desarrollaron scripts de seeding que generan datasets controlados, simulando escenarios reales de éxito, duplicidad y fallos de integración.
 
 ---
 
@@ -99,7 +100,7 @@ curl -X POST http://127.0.0.1:8000/api/webhooks/ -H "Content-Type: application/j
 | **Miércoles 01/04** | Análisis técnico y configuración inicial Django/CORS. | 1.5 h |
 | **Jueves 02/04** | No Avance | 0.0 h |
 | **Viernes 03/04** | Estructura de base de datos, Modelos y primer prototipo Backend. | 3.0 h |
-| **Sábado 04/04** | No Avance | 0.0 h |
-| **Domingo 05/04** | Desarrollo de Frontend: Dashboard, Context API y UI/UX con shadcn/ui. | 4.0 h |
-| **Lunes 06/04** | Robustez de Webhooks, Timestamp Parsing, Unit Testing (94.5%) y Documentación. | 4.0 h |
-| **TOTAL** | **Desarrollo Full Stack Finalizado** | **12.5 h** |
+| **Sábado 04/04** | Desarrollo de Frontend: Dashboard, Context API y UI/UX con shadcn/ui. | 4.0 h |
+| **Domingo 05/04** | Afinación de Frontend: Página de Leads, Lead por contacto y mejoramientos del Dashboard | 4.0 h |
+| **Lunes 06/04** | Robustez de Webhooks, Timestamp Parsing, Unit Testing y Documentación. | 4.0 h |
+| **TOTAL** | **Desarrollo Full Stack Finalizado** | **16.5 h** |
