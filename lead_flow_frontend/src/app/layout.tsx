@@ -1,6 +1,13 @@
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { LeadProvider } from "@/context/LeadContext";
+import type { Metadata } from "next";
+
+// Agregamos esto aquí
+export const metadata: Metadata = {
+  title: "LeadFlow | CRM System",
+  description: "Sistema unificado de gestión de leads",
+};
 
 export default function RootLayout({
     children,
